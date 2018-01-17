@@ -4,7 +4,7 @@ default: &default
   pool: 5
   username: yaro
   password: pass
-  host:     <%= ENV['IP'] %>
+  host:     db
 
 development:
   <<: *default
