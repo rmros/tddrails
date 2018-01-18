@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-features 'create new achievement' do
+feature 'create new achievement' do
     scenario 'create new achievement with valid data' do
         visit('/')
         click_on('New Achievement')
