@@ -1,1 +1,5 @@
-<h1>its new achevement </h1>
+<%= simple_form_for @achievement do |f| %>
+<%= f.input :title %>
+<%= f.input :description %>
+<%= f.input :privacy, collection: Achievement.privacies %>
+<% end %>
