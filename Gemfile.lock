@@ -207,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails (~> 7.2, >= 7.2.5)
   bootstrap-sass (~> 3.3.7)
   byebug
   capybara
