@@ -12,6 +12,10 @@ class AchievementsController < ActionController::Base
     end
   end
   
+  def show
+    @achievement = Achievement.find(params[:id])
+  end
+  
   private
   
   def achievement_params
