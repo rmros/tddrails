@@ -4,7 +4,6 @@ services:
     image: postgres:9.6
     ports:
       - '5432:5432'
-    command: sudo service postgresql start
     volumes:
       - postgresql-data:/var/lib/postgresql/data
   web:
