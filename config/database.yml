@@ -3,13 +3,13 @@ default: &default
   encoding: unicode
   pool: 5
   
-  # username: postgres
-  # password: 
-  # host: db
+  username: postgres
+  password: 
+  host: db
   
-  username: yaro
-  password: pass
-  host:     <%= ENV['IP'] %>
+  # username: yaro
+  # password: pass
+  # host:     <%= ENV['IP'] %>
   
 
 development:
