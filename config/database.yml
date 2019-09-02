@@ -16,10 +16,12 @@ development:
   <<: *default
   database: tddrails_development
 
-test:
+test: &test
   <<: *default
   database: tddrails_test
 
 production:
   <<: *default
   database: tddrails_production
+cucumber:
+  <<: *test
